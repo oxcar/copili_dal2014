@@ -1,0 +1,235 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.autocomplete-suggestions {
+  padding: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.2);
+}
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+
+div#main-container {
+  margin: 0 auto;
+}
+
+/* 
+------------------------------
+Home 
+------------------------------ 
+*/
+
+div#home-logo {
+  margin-top: 30px;
+  text-align: center
+}
+
+div#home-logo h1 {
+  font-size: 72pt;
+}
+
+div#home-search-input {
+  margin-top: 30px;
+}
+
+div#home-tags {
+  text-align: center;
+  margin-top: 30px;
+}
+
+div#home-tags span {
+  cursor: pointer;
+  color: #0078a0;
+}
+
+div#home-tags span:hover {
+  text-decoration: underline;
+}
+
+div#home-tags span {
+  margin-right: 10px;
+}
+
+
+/* 
+------------------------------
+Search Results 
+------------------------------ 
+*/
+
+div#header {
+
+}
+
+div#sections {
+
+}
+div#sections ul {
+  
+}
+div#sections ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+#section-learn {
+  color: #3497d9;
+}
+
+#section-experience {
+  color: #e64a3c;
+}
+
+#section-change {
+  color: #2fcc70;
+}
+
+/* Menu */
+div#menu {
+}
+div#menu ul {
+  list-style: none;
+}
+div#menu ul li {
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+div#menu ul li:hover {
+  cursor: pointer;
+}
+
+div#menu ul li img {
+    width: 128px;
+}
+
+div#menu ul li#menu-all {
+  background-color: #2ecc71;
+}
+
+div#menu ul li#menu-learn {
+  background-color: #3497d9;
+}
+
+div#menu ul li#menu-experience {
+  background-color: #f0c311;
+  background-color: #f0c311;
+}
+
+div#menu ul li#menu-change {
+  background-color: #e64a3c;
+  background-color: #e64a3c;
+}
+
+div#copi-container {
+
+}
+
+div#copi-container > div.copi {
+  width: 250px;
+  height: 180px;
+  display: inline-block;
+  float: left;
+  background-color: #fafafa;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(200,200,200,0.3);
+}
+
+div#copi-container > div.copi:hover {
+  cursor: pointer;
+}
+
+div#copi-container > div.copi p {
+  padding: 15px 15px;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+
+div#copi-container > div.copi div {
+  width: 100%;
+  background-color: #e0e0e0;
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+}
+
+div#copi-container > div.copi.learn {
+  border-top: 3px solid #3497d9;
+}
+
+div#copi-container > div.copi.experience {
+  border-top: 3px solid #f0c311;
+}
+
+div#copi-container > div.copi.change {
+  border-top: 3px solid #e64a3c;
+}
+
+div.reveal-modal div.caption {
+  
+}
+
+div.reveal-modal {
+  font-size: 14px;
+}
+
+div.reveal-modal div.caption p {
+  font-size: 16px;
+  background-color: #f0f0f0;
+  padding: 20px 20px;
+}
+
+div.reveal-modal div.caption.learn p {
+  border-top: 3px solid #3497d9;
+}
+
+div.reveal-modal div.caption.experience p {
+  border-top: 3px solid #f0c311;
+}
+
+div.reveal-modal div.caption.change p {
+  border-top: 3px solid #e64a3c;
+}
+
+div.reveal-modal div.social-icons {
+  margin-top: 20px;
+  text-align: right;
+}
+
+div.reveal-modal div.social-icons img {
+  width: 32px;
+  height: 32px;
+}
+
+div.reveal-modal div.top-icons img {  
+  width: 24px;
+  height: 24px;
+  margin-right: 2px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+div.etiqueta {
+  font-weight: 700;
+}
+
+.paper-metadata {
+
+}
+
+.paper-metadata div {
+
+}
+
+div.extra-padding {
+  padding-bottom: 20px;
+}
